@@ -4,7 +4,10 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #00437a;
 }
-
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
 h1 {
   background-color: #ffdec7;
   color: #aa401f;
@@ -44,7 +47,84 @@ h3 {
   height: 100%;
 }
 
-.img-container {
-  margin-right: 16px;
-  width: 200px;
+.gallery {
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+
+div.img-container {
+  
+  border: 2px solid #99b8e3ff;
+}
+
+div.img-container:hover {
+  border: 2px solid #aa401f;
+}
+
+div.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  background-color: white;
+  border: 1px solid #99b8e3ff;
+  padding: 6px;
+  float: left;
+  width: 16.65%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive {
+    width: 33.3%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* unvisited link */
+a:link {
+  color: #00437a;
+}
+
+/* visited link */
+a:visited {
+  color: #00437a;
+}
+
+/* mouse over link */
+a:hover {
+  color: #aa401f;
+}
+
+/* selected link */
+a:active {
+  color: #aa401f;
 }
