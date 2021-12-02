@@ -59,8 +59,7 @@ h3 {
   padding-bottom: 30px;
 }
 
-div.img-container {
-  
+div.img-container {  
   border: 2px solid var(--primaryLight);
 }
 
@@ -104,11 +103,11 @@ div.desc {
   }
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
-}
+} */
 
 .clearfix:after {
   content: "";
@@ -134,4 +133,8 @@ a:hover {
 /* selected link */
 a:active {
   color: var(--secondaryDark);
+}
+
+.contacts {
+  text-align: center;
 }
