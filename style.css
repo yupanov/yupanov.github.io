@@ -103,11 +103,11 @@ div.desc {
   }
 }
 
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
-} */
+}
 
 .clearfix:after {
   content: "";
